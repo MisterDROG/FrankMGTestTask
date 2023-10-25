@@ -1,7 +1,6 @@
 {
 	"name": "myapp",
 	"version": "0.0.1",
-	"homepage": "https://misterdrog.github.io/FrankMGTestTask/",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
