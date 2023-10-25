@@ -1,18 +1,21 @@
 {
 	"name": "myapp",
 	"version": "0.0.1",
+	"homepage": "https://misterdrog.github.io/FrankMGTestTask/",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"deploy": "npm run build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
+		"gh-pages": "^6.0.0",
 		"sass": "^1.69.4",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
