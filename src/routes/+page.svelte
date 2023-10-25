@@ -230,7 +230,7 @@
         }
 
         button:hover {
-            box-shadow: 2px 2px 2px grey;
+            box-shadow: 4px 2px 2px rgb(145, 145, 145);
         }
     }
 
@@ -254,13 +254,13 @@
         }
 
         .postCard {
+            width: 330px;
             cursor: pointer;
             padding: 16px;
             border-radius: 4px;
             background-color: #f5f5f5;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 8px;
-            width: 40%;
             box-sizing: border-box;
 
             h3 {
@@ -285,7 +285,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            width: 40%;
+            width: 330px;
             margin-top: 16px;
 
             label {
