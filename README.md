@@ -1,38 +1,19 @@
-# create-svelte
+Выполненное тестовое задание Дрогайцевым Игорем для компании FrankMG.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Исходя из стека проекта компании задание выполнено на Svelte, Typescript, SCSS c использованием Svelte.Kit. Поскольку в задании было указано сделать максимально простое решение в проекте не сделана инкапсуляция в отдельные файлы функций и компонентов. Для дальнейшей разработки это сделать крайне необходимо. Код снабжен комментариями.
 
-## Creating a project
+Текст задания: 
 
-If you're seeing this, you've probably already done this step. Congrats!
+Блог без backend
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Разработать простой блог в браузере, которые будет хранить данные в local storage.
+Решение постараться сделать максимально простым, дизайн подойдет технический.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Разделы
+• Общий список постов: выводятся заголовок, дата создания и дата редактирования
+• Создание/редактирование поста: форма с заголовком и текстом поста (без 
+форматирования, обычный текст)
+• Просмотр поста: отображается заголовок, текст, дата создания и дата редактирования
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Технологии
+Svelte или чистый JS, не использовать библиотеки и каркасы для стилей подобные Bootstrap.
